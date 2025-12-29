@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database and backups
+*.db
+bestellverwaltung_BACKUP_*.db
+*_CLEANBACKUP_*.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.venv/
+
+# Editor files
+.vscode/
+*.swp
+.DS_Store
