@@ -1,0 +1,40 @@
+2025-12-29 23:19:22,561 - ERROR - Fehler beim Abrufen der Kundenliste: no such column: Adresse
+2025-12-29 23:21:00,439 - ERROR - Datenbankfehler: no such column: Adresse
+2025-12-29 23:22:46,606 - ERROR - Datenbankfehler beim Abrufen der Rechnung: no such column: K.Adresse
+2025-12-29 23:25:50,487 - ERROR - Fehler beim Abrufen der Kundenliste: no such column: Adresse
+2025-12-29 23:26:13,538 - ERROR - Fehler beim Abrufen der Kundenliste: no such column: Adresse
+2025-12-29 23:32:51,075 - INFO - Neuer Kunde hinzugefügt: Karin Katinka (ID: 6)
+2025-12-29 23:33:31,586 - INFO - Neue Bestellung erstellt: ID 4 für Kunde Karin Katinka
+2025-12-29 23:33:54,679 - INFO - Bestellposition hinzugefügt: 2x Kopfhörer zu Bestellung 4
+2025-12-29 23:34:17,786 - INFO - Bestellposition hinzugefügt: 1x Smartphone zu Bestellung 4
+2025-12-29 23:34:35,940 - ERROR - Fehler in neue_bestellung(): no such column: Rabatt
+2025-12-29 23:39:07,089 - ERROR - Datenbankfehler beim Abrufen der Rechnung: no such column: B.Status
+2025-12-29 23:40:00,410 - ERROR - Fehler beim Hinzufügen des Kunden: database is locked
+2025-12-29 23:41:39,376 - ERROR - Fehler beim Hinzufügen des Lieferanten: database is locked
+2025-12-29 23:42:09,731 - INFO - Neue Bestellung erstellt: ID 4 für Kunde Karin Katinka
+2025-12-29 23:42:23,963 - INFO - Bestellposition hinzugefügt: 1x Laptop zu Bestellung 4
+2025-12-29 23:42:32,587 - INFO - Bestellposition hinzugefügt: 2x Kopfhörer zu Bestellung 4
+2025-12-29 23:42:44,301 - INFO - Bestellposition hinzugefügt: 1x Smartphone zu Bestellung 4
+2025-12-29 23:42:59,119 - ERROR - Fehler in neue_bestellung(): no such column: Rabatt
+2025-12-29 23:43:34,365 - ERROR - Datenbankfehler beim Abrufen der Rechnung: no such column: B.Status
+2025-12-29 23:49:40,338 - INFO - Neuer Lieferant hinzugefügt: Rossmann (ID: 4)
+2025-12-29 23:50:17,623 - INFO - Neuer Lieferant hinzugefügt: DM (ID: 5)
+2025-12-29 23:55:54,184 - ERROR - Datenbankfehler: no such column: Status
+2025-12-29 23:56:46,583 - ERROR - Datenbankfehler beim Abrufen der Rechnung: no such column: B.Status
+2025-12-29 23:58:01,754 - INFO - Neue Bestellung erstellt: ID 4 für Kunde Karin Katinka
+2025-12-29 23:58:25,956 - INFO - Bestellposition hinzugefügt: 1x Laptop zu Bestellung 4
+2025-12-29 23:58:33,732 - INFO - Bestellposition hinzugefügt: 1x Smartphone zu Bestellung 4
+2025-12-29 23:58:42,421 - INFO - Bestellposition hinzugefügt: 2x Kopfhörer zu Bestellung 4
+2025-12-29 23:58:53,367 - INFO - Bestellposition hinzugefügt: 1x Halogen-Strahler zu Bestellung 4
+2025-12-29 23:59:12,018 - ERROR - Fehler in neue_bestellung(): no such column: Rabatt
+2025-12-30 00:17:27,256 - INFO - Preise bereinigt (dry=True) - geänderte Einträge: 0
+2025-12-30 00:18:26,158 - INFO - Neue Bestellung erstellt: ID 4 für Kunde Karin Katinka
+2025-12-30 00:18:39,230 - INFO - Bestellposition hinzugefügt: 1x Laptop zu Bestellung 4
+2025-12-30 00:18:45,262 - INFO - Bestellposition hinzugefügt: 1x Smartphone zu Bestellung 4
+2025-12-30 00:18:52,431 - INFO - Bestellposition hinzugefügt: 2x Kopfhörer zu Bestellung 4
+2025-12-30 00:19:13,678 - INFO - Bestellung 4 abgeschlossen - Rabatt: 5.0%, MwSt: 19.0%
+2025-12-30 00:19:32,543 - INFO - Rechnung angezeigt: Bestellung 4 - Summe: 2260.95€
+2025-12-30 00:21:09,875 - INFO - Bestellverlauf angezeigt für Kunde 6
+2025-12-30 00:22:50,817 - INFO - Preise bereinigt (dry=False) - geänderte Einträge: 0
+2025-12-30 00:23:06,213 - INFO - Datenbankbackup erstellt: bestellverwaltung_BACKUP_20251230_002306.db
+2025-12-30 00:23:17,476 - INFO - Datenbankbackup erstellt: bestellverwaltung_BACKUP_20251230_002317.db
