@@ -1,7 +1,32 @@
 Release v0.1 - Bestellverwaltung (Kurz-Release-Notes)
 Datum: 2025-12-30
 
-Wesentliche Änderungen / Verbesserungen
+# Quickstart:
+
+    ## Clone repository
+
+    git clone https://github.com/wanjus/Bestellverwaltung.git
+    cd Bestellverwaltung
+
+    Initial run / initialize database
+
+    From the repo root run: python bestellverwaltung.py
+    On first run the program will call init_db() and create bestellverwaltung.db and seed example data. If you already have a database file and want to run schema fixes, the program will run its automatic migrations when starting.
+
+    Useful maintenance scripts (from README)
+
+    If you have an existing DB and want to explicitly run the migration/repair script:
+        python migrate_db.py
+    To check/cleanup product price formats (dry-run first):
+        python clean_prices.py --dry
+        then without --dry to apply changes
+    To create backups from the menu, use the “Datenbank sichern” option in the running program. There are also scripts to automate daily backups:
+        daily_backup.py (script)
+        run_daily_backup.bat (Windows batch)
+        register_backup_task.ps1 (PowerShell to register a scheduled task on Windows)
+
+
+## Wesentliche Änderungen / Verbesserungen
 - Database migration: automatische Nachrüstung fehlender Spalten (`Status`, `Rabatt`, `Mwst_Satz`) beim Start.
 - Datenbank-Adapter für `datetime.date` registriert (vermeidet DeprecationWarning unter Python 3.12+).
 - Robustere Fehlerbehandlung und Logging (`bestellverwaltung.log`).
