@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bestellverwaltung"
+version = "0.1.0"
+description = "Eine einfache Bestellverwaltung mit SQLite"
+authors = [{name = "Wanju"}]
+readme = "RELEASE_NOTES.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+bestellverwaltung = "bestellverwaltung:main_menu"
+clean-prices = "clean_prices:clean_prices"
+daily-backup = "daily_backup:backup_db"
+
+[tool.setuptools]
+py-modules = ["bestellverwaltung", "clean_prices", "daily_backup", "migrate_db"]

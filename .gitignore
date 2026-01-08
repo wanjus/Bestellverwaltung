@@ -15,6 +15,10 @@ bestellverwaltung_BACKUP_*.db
 .env
 .venv/
 
+# Build artifacts
+dist/
+*.egg-info/
+
 # Editor files
 .vscode/
 *.swp
